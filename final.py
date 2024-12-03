@@ -30,6 +30,7 @@ if not datos_seleccionados.empty:
         st.write(f"- **Nombre:** {row['Nombre']} {row['Apellidos']}")
         st.write(f"- **Sexo:** {row['Sexo']}")
         st.write(f"- **Edad:** {row['Edad']}")
+        st.write(f"- **Año:** {row['Año']}")  # Nueva línea para mostrar el año
         st.write(f"- **Acusación/Cargo:** {row['Acusacion/Cargo']}")
         st.write(f"- **Fuente:** [Ver Fuente]({row['Fuente']})")
         st.write("---")
