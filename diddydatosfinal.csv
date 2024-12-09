@@ -1,0 +1,22 @@
+Nombre,Apellidos,Fotos,Sexo,Rol,A�o,Edad,Acusacion/Cargo,Fuente,Lugar de nacimiento,Lugar del crimen/ataque
+Cassandra ,Ventura,Ventura.jpg,Femenino,Victima,2023,37,Abuso fisico y sexual,https://www.thecut.com/article/diddy-allegations-sexual-abuse-cassie.html,,
+Liza ,Gardner,Gardner.jpg,Femenino,Victima,1990,23,Agresion sexual,https://www.theguardian.com/music/2023/nov/24/sean-diddy-combs-accused-of-sexual-assault-and-revenge-porn-in-two-new-lawsuits,,
+Joi,Dickerson-Neal,Dickerson.jpg,Femenino,Victima,1991,24,Violacion y grabacion sin consentimiento,https://www.theguardian.com/music/2023/nov/24/sean-diddy-combs-accused-of-sexual-assault-and-revenge-porn-in-two-new-lawsuits,,
+Rodney ,Jones,,Masculino,Victima,2024,50,Agresion sexual,https://www.nbcnews.com/news/us-news/sean-diddy-combs-cuba-gooding-jr-sexual-assault-harassment-lawsuit-rcna145046,,
+Crystal ,McKinney,McKinney.jpg,Femenino,Victima,2003,28,Agresion sexual,https://www.independent.co.uk/news/world/americas/crime/p-diddy-charges-arrest-sean-combs-party-b2620745.html,,
+April ,Lampros,,Femenino,Victima,1994,22,Agresion sexual y negligencia emocional,https://www.independent.co.uk/news/world/americas/crime/p-diddy-charges-arrest-sean-combs-party-b2620745.html,,
+Jane ,Doe,Doe.jpg,Femenino,Victima,2004,17,Violacion en grupo,https://www.nbcnews.com/news/us-news/sean-diddy-combs-accused-third-lawsuit-week-sexually-assaulting-woman-rcna126564,,
+Dawn ,Richard,Richard.jpg,Masculino,Testigo Victima,2024,40,Trafico sexual y agresion sexual,https://www.bbc.com/news/articles/c2eklxx9y1ro,,
+Thalia ,Graves,Graves.jpg,Femenino,Victima,2001,25,Drogada y violada,https://www.bbc.com/news/articles/c2eklxx9y1ro,,
+Jane,Doe 2,Doe.jpg,Femenino,Victima,2006,16,Drogada y violada,https://www.bbc.com/news/articles/c2eklxx9y1ro,,
+Jane,Doe 3,Doe.jpg,Femenino,Victima,2008,18,Drogada y violada,https://www.bbc.com/news/articles/c2eklxx9y1ro,,
+Aaron ,Hall,Hall.jpg,Masculino,Complice,1990,26,Participacion en agresion sexual,https://www.theguardian.com/music/2023/nov/24/sean-diddy-combs-accused-of-sexual-assault-and-revenge-porn-in-two-new-lawsuits,,
+Harve,Pierre,,Masculino,Complice,2004,34,Facilitacion de violacion en grupo,https://www.nbcnews.com/news/us-news/sean-diddy-combs-accused-third-lawsuit-week-sexually-assaulting-woman-rcna126564,,
+Lou ,Taylor,Taylor.jpg,Femenino,Complice,2024,58,Explotacion de celebridades vulnerables,https://www.the-sun.com/entertainment/12794297/diddy-business-manager-accused-of-exploiting-vulnerable-celebs/,,
+Tanea ,Wallace,Wallace.jpg,Femenino,Testigo,2018,25,Presencia de menores en fiestas,https://pagesix.com/2024/11/12/celebrity-news/sean-diddy-combs-party-guest-implies-minors-were-present/,,
+Jennifer,Lopez,Lopez.jpg,Femenino,Presunta Victima,2001,32,Asistencia a fiestas bajo investigacion por trafico sexual y coercion,https://larepublica.pe,"Bronx, Nueva York, EE.UU.","Nueva York, EE.UU."
+Leonardo,DiCaprio,DiCaprio.jpg,Masculino,Presunta Victima,2008,34,Asistencia a fiestas bajo investigacion por abuso,https://larepublica.pe,"Los angeles, California, EE.UU.","Los angeles, EE.UU."
+Justin,Bieber,Bieber.jpg,Masculino,Presunta Victima,2009,15,Manipulacion y posible coercion durante su juventud,https://culturacolectiva.com,"London, Ontario, Canadá","Nueva York, EE.UU."
+Jaden,Smith,Smith.jpg,Masculino,Presunta Victima,2010,12,Asistencia a fiestas siendo menor de edad,https://culturacolectiva.com,"Malibu, California, EE.UU.",x
+Kim,Kardashian,Kardashian.jpg,Femenino,Presunta Victima,2007,27,Asistencia a eventos donde se reportaron abusos,https://larepublica.pe,"Los angeles, California, EE.UU.","Los Ángeles, EE.UU."
+Paris,Hilton,Hilton.jpg,Femenino,Presunta Victima,2007,26,Asistencia a eventos donde se reportaron abusos,https://larepublica.pe,"Nueva York, EE.UU.","Nueva York, EE.UU."
