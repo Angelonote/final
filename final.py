@@ -1,8 +1,9 @@
 import streamlit as st
 import pandas as pd
+from PIL import Image
 
 # Cargar los datos
-file_path = 'Sean_P_diddy_Combs_final.csv'  
+file_path = 'diddydatosfinal.csv'  # Archivo de datos
 data = pd.read_csv(file_path, encoding='latin1')
 
 # Título de la aplicación
@@ -14,7 +15,8 @@ rol_seleccionado = st.selectbox("Selecciona un Rol:", roles)
 
 # Filtrar por el Rol seleccionado
 datos_filtrados = data[data['Rol'] == rol_seleccionado]
-# Creamos una nueva columna combinada para mostrar nombre y apellido juntos
+
+# Crear una nueva columna combinada para mostrar nombre y apellido juntos
 datos_filtrados['Nombre Completo'] = datos_filtrados['Nombre'] + " " + datos_filtrados['Apellidos']
 
 # Paso 2: Seleccionar el Nombre Completo
@@ -30,9 +32,20 @@ if not datos_seleccionados.empty:
         st.write(f"- **Nombre:** {row['Nombre']} {row['Apellidos']}")
         st.write(f"- **Sexo:** {row['Sexo']}")
         st.write(f"- **Edad:** {row['Edad']}")
-        st.write(f"- **Año:** {row['Año']}")  # Nueva línea para mostrar el año
+        st.write(f"- **Año:** {row['Año']}")
         st.write(f"- **Acusación/Cargo:** {row['Acusacion/Cargo']}")
         st.write(f"- **Fuente:** [Ver Fuente]({row['Fuente']})")
+        
+        # Mostrar la foto si existe
+        if pd.notna(row['Fotos']):
+            foto_path = f"FOTOS/{row['Fotos']}"
+            try:
+                imagen = Image.open(foto_path)
+                st.image(imagen, caption=f"Foto de {row['Nombre Completo']}", use_column_width=True)
+            except FileNotFoundError:
+                st.write("Foto no disponible.")
+        else:
+            st.write("Foto no disponible.")
         st.write("---")
 else:
     st.write("No se encontró información para esta selección.")
